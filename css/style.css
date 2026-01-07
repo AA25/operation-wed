@@ -97,8 +97,13 @@
 .display-4,
 .display-5,
 .display-6 {
-    font-family: 'Great Vibes', cursive;
-    font-weight: 700;
+    font-family: 'Barlow' ,sans-serif;
+    font-weight: 500;
+}
+
+.section-headers {
+    font-family: 'Barlow' ,sans-serif;
+    font-weight: 250;
 }
 
 
@@ -111,7 +116,7 @@
 
 .navbar .navbar-nav .nav-link {
     padding: 10px 15px;
-    font-family: 'Petit Formal Script', cursive;
+    font-family: 'Barlow', sans-serif;
     font-weight: 600;
     font-size: 16px;
     transition: .5s;
@@ -269,6 +274,10 @@
     .wedding-timeline .wedding-content .heart-circle {
         display: none;
     }
+}
+
+text-light {
+    color: white !important;
 }
 /*** Wedding Timeline End ***/
 
