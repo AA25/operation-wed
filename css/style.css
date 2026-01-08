@@ -455,3 +455,35 @@ text-light {
     min-width: 250px;
     width: 100%;
 }
+
+
+#QnA::before  {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+            linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+            url(https://kohantextilejournal.com/wp-content/uploads/2025/04/traditional-pattern.webp);
+    background-size: cover;
+    filter: grayscale(100%);
+    z-index: -99;
+}
+
+#travelGuide::before  {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+            linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+            url(https://kohantextilejournal.com/wp-content/uploads/2025/04/traditional-pattern.webp);
+    background-size: cover;
+    filter: grayscale(100%);
+    z-index: -99;
+}
+
+.tg-info-box {
+    /*background-color: white;*/
+    background: rgba(255,255,255,0.5);
+    border-style: solid;
+    border-color: #ffffff !important;
+}
