@@ -449,3 +449,9 @@ text-light {
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+.accent-line {
+    max-width: 439px;
+    min-width: 250px;
+    width: 100%;
+}
