@@ -487,3 +487,8 @@ text-light {
     border-style: solid;
     border-color: #ffffff !important;
 }
+
+.timeline-icon {
+    width: 100px;
+    height: 100px;
+}
